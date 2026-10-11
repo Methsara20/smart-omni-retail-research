@@ -1,6 +1,6 @@
 # Smart Omni-Retail System - Academic Research Website
 
-Phases 1, 2, 3, 3.5, 4, 4.1, 4.2 and 4.3 academic information website for SLIIT research group **R26-IT-060**, Sri Lanka.
+Academic information website for SLIIT research group **R26-IT-060**, Sri Lanka.
 
 ## Purpose
 Present four integrated research functions: inventory optimisation, personalised marketing, virtual try-on and sizing, and customer behaviour intelligence. This website explains the research and does not implement the retail application.
@@ -19,7 +19,7 @@ HTML5 and CSS3 only. No JavaScript, frameworks, external fonts, UI libraries, bu
 - `css/style.css`: tokens, reset, typography, global layout.
 - `css/components.css`: navigation, buttons, hero, cards, architecture, timeline, footer and internal pages.
 - `css/responsive.css`: tablet/mobile layouts and reduced-motion support.
-- `assets/images/`, `assets/diagrams/`, `assets/icons/`: team portraits in `assets/images/team/`; diagram/icon folders remain empty.
+- `assets/images/`, `assets/diagrams/`, `assets/icons/`: team portraits in `assets/images/team/`; six original diagram PNGs are displayed in the document gallery; inline SVG icons are used.
 - `documents/research-pdfs/`: the supplied public copy of the final research paper.
 - `presentations/slides/`: three browser-friendly historical presentation PDFs; originals are archived externally.
 
@@ -29,7 +29,7 @@ Open `index.html` directly in a browser. Optionally run `python -m http.server 8
 ## Implementation status
 Home includes the hero and conceptual architecture graphic, overview, four research components, layered product architecture, journey preview, documentation preview and closing call to action. All seven pages include consistent navigation and footer. Mobile navigation uses native details/summary. Focus styles, skip links, semantic headings, responsive grids and reduced-motion support are included.
 
-The timeline does not assert dates or completion status. Resource cards point to section pages, not fictional downloads. Research results and personal information have not been invented.
+The milestone page uses user-confirmed 2026 assessment dates, panel IT-P05, Conducted/Scheduled event statuses and Not Published marks/results. Resource cards point to section pages, not fictional downloads. Research results and personal information have not been invented.
 
 ## Phase 2 sources and content integrity
 The primary source is `research-source/An AI Driven Smart Retail Recommendation System.pdf` (six pages), titled **AI-Driven Smart Fashion Retail Recommendation System**. No external references were introduced. Domain content draws on the Abstract and Sections I-VI. Its bibliography preserves all 26 available entries and citation numbering, without fabricated bibliographic details.
@@ -600,36 +600,58 @@ Chrome passed all seven pages at 375, 768, 1024 and 1440 px (28 layouts), with n
 
 Allocated marks and assessment results remain Not Published, and final presentation materials remain unsupplied. The 19 October 2026 final assessment is Scheduled as of 11 October 2026; no grade or completion is assumed. Prior diagram academic verification and the over-20-MB submission-size issue remain deferred. No ZIP was created or modified, no staging work occurred, and no deployment or remote push was performed.
 
-## Phase 5.0 - Local Git repository setup
 
-Initial inspection found no Git repository, tracked files, branches, remotes or .gitignore. A new local repository uses main; no existing history or configuration was replaced. This phase authorizes a local source commit only. No GitHub repository, visibility setting, remote connection, push or Pages deployment has been created.
+## GitHub repository and live website
 
-### Repository inventory and approval boundary
+Public repository: https://github.com/Methsara20/smart-omni-retail-research
 
-| Material | Local Git decision | Basis |
-| --- | --- | --- |
-| Seven HTML pages and three CSS files | Include | Authorized website source version control |
-| Four researcher portraits | Include | Previously supplied and integrated website rendering assets; identity mappings confirmed |
-| Six draft diagram PNG previews | Include | Explicitly authorized draft previews used by the existing website; no academic verification implied |
-| README.md, AGENTS.md and .gitignore | Include | Project documentation/instructions and repository exclusions |
-| Thirteen academic documents in documents/ | Exclude | Existing document-specific publication permissions do not establish blanket repository-storage approval |
-| Three historical presentation PDFs | Exclude | Academic binaries kept outside source history |
-| research-source/ PDF | Exclude | Development reference, not an authorized repository deliverable |
+GitHub Pages: https://methsara20.github.io/smart-omni-retail-research/
 
-The website source includes its already approved researcher names/student IDs, institution emails and image/document filenames. Those source references are not document binary storage. README records prior approvals and research discrepancies. The Git author's existing configured identity is used; no global Git identity/configuration is changed. Secret-pattern checks on all 39 pre-existing files (including readable PDF/DOCX text) found no private-key blocks, recognized GitHub/AWS/Google tokens or quoted secret assignments. All ten PNG/JPEG assets were inspected for dimensions and EXIF GPS metadata; no GPS tags were found. Automated checks are not a formal guarantee that every possible secret format is absent. No sensitive document was previously tracked because Git was not initialized.
+Branch: main. The source-only initial commit was 410c2c69d40606788eaafd3d76abf03e91778cd0; it was pushed in Phase 5.1. Pages was subsequently enabled by the repository owner and was verified built from main at the start of Phase 5.3. Current publication scope is described below; earlier source-only exclusion notes describe historical phase states.
 
-.gitignore excludes documents/, slides/, research-source/, academic binary formats, ZIPs/staging, backups/temp/conversion outputs, credentials/private configuration and common local caches. Rendering assets remain included. Existing original files are not removed, renamed or altered. Ignore rules do not protect files already tracked; this initial commit explicitly lists and audits its source inventory before commit.
+## Phase 5.3 - Documents, presentations and repository cleanup
 
-### Local use and future GitHub connection
+Thirteen original academic library documents and three presentation PDFs are approved for public GitHub/GitHub Pages distribution. Existing approvals include the four proposals, four overviews and topic assessment form (including their approved signatures and assessment annotations), the two available individual thesis drafts, the research paper and the supplied group thesis draft. The user separately confirmed public distribution of all three presentation PDFs during this phase. Draft thesis designations remain accurate. All files are linked directly at existing paths and retain their original hashes; no duplicate copy or placeholder was created.
 
-The existing local website keeps all original file links functional. A fresh clone contains the HTML/CSS, portraits and draft diagrams but intentionally lacks academic PDFs/DOCX/slides; those download/view targets require separately authorized local files in their original paths. Source control setup does not make this clone a complete deployment package.
+The six diagram-card review badges were removed as requested; each image, title, description and responsive preview remains, with neutral View Diagram actions. This is a display-label change only: it does not academically verify the image content or resolve the detailed correction checklist recorded under Phase 4.4.1. Model/workflow/example-value corrections remain open, including the marketing paper versus individual-thesis conflict (85.5% versus 63.3%, disputed ROC-AUC/model choice), inventory rule-based transfer and chronological split, Vertex AI fitting and illustrative confidence, behaviour 91.2% versus diagram values and rule-based assistance, and architecture authentication/SHAP/service labels. Original PNGs and website findings were not changed.
 
-The intended future destination is a private GitHub repository named smart-omni-retail-research. Before connecting/pushing, the user must approve the actual owner/repository URL and committed inventory, and private visibility must be verified. Then add that approved destination as origin and push main only with explicit user authorization. Do not enable Pages or public deployment. No automatic follow-on phase or push is authorized.
+AGENTS.md remains unchanged locally and is ignored through /AGENTS.md. It is removed from current Git tracking, without rewriting history. Historical copies remain accessible through prior commits; inspection found project instructions and public research references, with no recognized credentials. .gitignore allows only the sixteen exact approved binary paths, retaining default exclusions for other academic files, research-source/, credentials, caches, conversion/temp outputs, ZIPs and staging. Four portraits and six diagrams stay tracked.
 
-Prepared local commit inventory: 23 files (7 HTML, 3 CSS, 4 portraits, 6 draft diagrams, README.md, AGENTS.md, .gitignore). All 17 academic binaries are excluded: thirteen library files, three slide PDFs and one research-source PDF. Submission staging, ZIP records, original academic files/images and website content remain unchanged. Final packaging and the previously deferred size/diagram academic-review issues remain outside this phase.
+Unavailable materials remain unavailable: Silva's and Perera's individual thesis PDFs, final presentation, planned assessment checklists and other not-yet-supplied reports. The Project Charter was completed via Microsoft Forms and has no separate PDF. Allocated marks/results remain Not Published and the final assessment remains Scheduled for 19 October 2026 as of 11 October 2026. No missing-file link was activated.
 
-### Phase 5.0 validation and local commit
+### Public download inventory and live tests
 
-Verified the exact 23-file staged allowlist and inspected staged blob contents for recognized credential patterns; no findings. Seventeen academic binaries are ignored and none is staged/tracked. Ignore probes passed for ZIPs, staging, temporary/conversion outputs, credentials, private folders and caches; all ten required rendering images remain included. Git initialized on main using the existing configured author identity; no remote is configured. The authorized initial commit records only the audited source inventory, with message "Initialize academic website source with private document exclusions".
+Sizes below are exact original bytes, using decimal MB for card displays. Each URL preserves filename capitalization and encodes spaces. Live results will be recorded after the authorized deployment.
 
-All seven HTML pages parse successfully, no website JavaScript was introduced, and all 314 existing local references/anchors resolve. Phase-start hashes confirm no website HTML/CSS, original document, portrait or diagram changes; only README.md and the new .gitignore were edited. Submission staging and ZIP records are unchanged. Browser responsive testing was not repeated because the rendered website files are byte-for-byte unchanged; prior Phase 4.4.7 browser results still describe the current website. The committed source intentionally excludes academic binaries, so a fresh clone alone is not a complete downloadable-document website. No GitHub visibility can be verified without a destination repository; user approval of that private destination and inventory remains required before any push.
+| File / deployed URL | Bytes | HTTP / View / Download |
+| --- | ---: | --- |
+| [R26-IT-060_DRAFT.pdf](https://methsara20.github.io/smart-omni-retail-research/documents/group-thesis/R26-IT-060_DRAFT.pdf) | 990,299 | Pending live verification |
+| [IT22146588_DRAFT.pdf](https://methsara20.github.io/smart-omni-retail-research/documents/individual-theses/IT22146588_DRAFT.pdf) | 1,605,476 | Pending live verification |
+| [IT22244598_DRAFT.pdf](https://methsara20.github.io/smart-omni-retail-research/documents/individual-theses/IT22244598_DRAFT.pdf) | 3,968,422 | Pending live verification |
+| [IT22146588 - Proposal Report.pdf](https://methsara20.github.io/smart-omni-retail-research/documents/proposal-reports/IT22146588%20-%20Proposal%20Report.pdf) | 4,637,213 | Pending live verification |
+| [IT22243812_Proposal_Report.pdf](https://methsara20.github.io/smart-omni-retail-research/documents/proposal-reports/IT22243812_Proposal_Report.pdf) | 1,150,056 | Pending live verification |
+| [IT22244598 - Proposal Report .pdf](https://methsara20.github.io/smart-omni-retail-research/documents/proposal-reports/IT22244598%20-%20Proposal%20Report%20.pdf) | 1,468,771 | Pending live verification |
+| [IT22284952_Proposal_Report.pdf](https://methsara20.github.io/smart-omni-retail-research/documents/proposal-reports/IT22284952_Proposal_Report.pdf) | 1,176,872 | Pending live verification |
+| [An AI Driven Smart Retail Recommendation System.pdf](https://methsara20.github.io/smart-omni-retail-research/documents/research-pdfs/An%20AI%20Driven%20Smart%20Retail%20Recommendation%20System.pdf) | 710,920 | Pending live verification |
+| [System_Overview_IT22244598.pdf](https://methsara20.github.io/smart-omni-retail-research/documents/system-overviews/System_Overview_IT22244598.pdf) | 346,944 | Pending live verification |
+| [System_Overview_Marketing_Intelligence - RW.docx](https://methsara20.github.io/smart-omni-retail-research/documents/system-overviews/System_Overview_Marketing_Intelligence%20-%20RW.docx) | 27,068 | Pending live verification |
+| [System_overview-IT22243812.pdf](https://methsara20.github.io/smart-omni-retail-research/documents/system-overviews/System_overview-IT22243812.pdf) | 12,600 | Pending live verification |
+| [System_overview-IT22284952.pdf](https://methsara20.github.io/smart-omni-retail-research/documents/system-overviews/System_overview-IT22284952.pdf) | 11,348 | Pending live verification |
+| [TAF R26-IT-60.pdf](https://methsara20.github.io/smart-omni-retail-research/documents/topic-assessment/TAF%20R26-IT-60.pdf) | 2,655,847 | Pending live verification |
+| [pp1-presentation.pdf](https://methsara20.github.io/smart-omni-retail-research/presentations/slides/pp1-presentation.pdf) | 3,340,356 | Pending live verification |
+| [pp2-presentation.pdf](https://methsara20.github.io/smart-omni-retail-research/presentations/slides/pp2-presentation.pdf) | 2,213,316 | Pending live verification |
+| [proposal-presentation.pdf](https://methsara20.github.io/smart-omni-retail-research/presentations/slides/proposal-presentation.pdf) | 7,096,998 | Pending live verification |
+
+### Deployment size and university submission
+
+GitHub Pages deployment assets and the final university package are separate. The deployed tracked-source total will be measured after validation; it includes original documents/presentations and rendering assets, not .git history, AGENTS.md or research-source/. The 20 MB university submission limit remains an unresolved final-submission task. No original PDF/DOCX/PNG is compressed or replaced, no document is removed to meet that limit, and no ZIP or staging package is generated.
+
+Only .gitignore, .gitattributes, documents.html and README.md source text changes are required, plus AGENTS.md tracking removal and sixteen approved binaries added to tracking. No thesis, proposal, research-paper, overview, assessment, presentation or image contents changed. No force-push or history rewrite is permitted.
+
+### Phase 5.3 local validation and publication review
+
+Passed HTML5/CSS syntax, heading hierarchy, unique IDs, no-JavaScript checks and all 314 exact-case local references across seven pages. Thirteen existing academic cards and all other pages remain unchanged. Six diagram images/titles/descriptions and view paths are preserved; the redundant review badges are absent and actions read View Diagram. PDFs rendered and retained recorded page counts/sizes; the Word overview's OOXML content is readable and structurally intact. No recognized credential patterns or unapproved contact details were detected in extracted document text; the scanned proposal/assessment signatures and annotations retain the user's existing explicit public approval. Three slide PDFs retain their correct milestone titles and slide counts (43/44/20), with explicit public-distribution approval this phase. Image-only/scanned pages cannot be fully certified by text extraction; prior visual reviews and explicit approvals remain the publication basis.
+
+Local Chrome passed seven pages at 375, 768, 1024 and 1440 px (28 layouts), with no horizontal overflow/card clipping. All thirteen academic document and three presentation downloads completed and matched original SHA-256 hashes. Six preview images loaded at every width (24 checks), and all six full-resolution views worked. Document anchors, visible keyboard focus, mobile menus, native assessment dropdowns, PDF views, reduced motion and direct file-mode pages passed. The mobile diagram gallery screenshot was inspected. Screen-reader and other-browser testing were not performed. Live validation follows after the authorized push.
+
+.gitattributes marks PDF, DOCX and image formats binary so Git cannot normalize their line endings. This was required because two small overview PDFs were initially detected as text by Git. All sixteen staged document/presentation blobs now exactly match original SHA-256 hashes; no original content was changed. Current publication inventory is 39 tracked files: source/rendering assets, sixteen approved downloads and .gitattributes, without AGENTS.md or research-source/.

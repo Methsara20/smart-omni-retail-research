@@ -1,0 +1,6 @@
+# Preserve original academic documents and image bytes across platforms.
+*.pdf binary
+*.docx binary
+*.png binary
+*.jpg binary
+*.jpeg binary

@@ -1,6 +1,6 @@
-# Academic binaries stay local; website publication approval does not authorize Git storage.
-/documents/
-/presentations/slides/
+# Academic binaries are excluded by default; exact approved exceptions follow.
+/documents/*
+/presentations/slides/*
 /research-source/
 *.pdf
 *.doc
@@ -73,3 +73,36 @@ Desktop.ini
 .DS_Store
 
 # Rendering assets (team portraits and draft diagram previews) remain versioned.
+
+# Local Codex instructions are not part of the public repository.
+/AGENTS.md
+
+# Phase 5.3: exact approved website downloads only.
+!/documents/group-thesis/
+/documents/group-thesis/*
+!/documents/individual-theses/
+/documents/individual-theses/*
+!/documents/proposal-reports/
+/documents/proposal-reports/*
+!/documents/research-pdfs/
+/documents/research-pdfs/*
+!/documents/system-overviews/
+/documents/system-overviews/*
+!/documents/topic-assessment/
+/documents/topic-assessment/*
+!/documents/group-thesis/R26-IT-060_DRAFT.pdf
+!/documents/individual-theses/IT22146588_DRAFT.pdf
+!/documents/individual-theses/IT22244598_DRAFT.pdf
+!/documents/proposal-reports/IT22146588 - Proposal Report.pdf
+!/documents/proposal-reports/IT22243812_Proposal_Report.pdf
+!/documents/proposal-reports/IT22244598 - Proposal Report .pdf
+!/documents/proposal-reports/IT22284952_Proposal_Report.pdf
+!/documents/research-pdfs/An AI Driven Smart Retail Recommendation System.pdf
+!/documents/system-overviews/System_Overview_IT22244598.pdf
+!/documents/system-overviews/System_Overview_Marketing_Intelligence - RW.docx
+!/documents/system-overviews/System_overview-IT22243812.pdf
+!/documents/system-overviews/System_overview-IT22284952.pdf
+!/documents/topic-assessment/TAF R26-IT-60.pdf
+!/presentations/slides/pp1-presentation.pdf
+!/presentations/slides/pp2-presentation.pdf
+!/presentations/slides/proposal-presentation.pdf
