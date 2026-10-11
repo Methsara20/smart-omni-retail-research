@@ -59,7 +59,7 @@ Analyses customer movement and shopping behaviour to support intelligent staff a
 
 [Visit the Research Website](https://methsara20.github.io/smart-omni-retail-research/)
 
-The website presents the research domain, project milestones, academic documents, presentations, research methodologies, and team information. The academic library includes three publicly approved individual thesis drafts, including T. A. Silva’s AI-Based Virtual Try-On and Size Recommendation System; L. A. D. A. S. Perera’s individual thesis remains awaiting supply.
+The website presents the research domain, project milestones, academic documents, presentations, research methodologies, and team information. The academic library includes publicly approved individual thesis drafts for all four research components.
 
 ---
 
