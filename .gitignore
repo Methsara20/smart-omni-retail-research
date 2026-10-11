@@ -1,0 +1,75 @@
+# Academic binaries stay local; website publication approval does not authorize Git storage.
+/documents/
+/presentations/slides/
+/research-source/
+*.pdf
+*.doc
+*.docx
+*.ppt
+*.pptx
+*.xls
+*.xlsx
+
+# Submission packages and staging
+*.zip
+*.ZIP
+/submission/
+/submission-staging/
+/submission_stage/
+/staging/
+/smart-omni-retail-submission/
+
+# Temporary, backup, conversion and generated output
+*.tmp
+*.temp
+*.bak
+*.backup
+*.old
+*.orig
+*.rej
+*~
+~$*
+*.log
+/temp/
+/tmp/
+/backups/
+/conversion-output/
+/conversion-outputs/
+/converted/
+/generated/
+/output/
+/outputs/
+
+# Credentials and private configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+credentials*.json
+service-account*.json
+service_account*.json
+firebase-adminsdk*.json
+/secrets/
+/private/
+/sensitive/
+
+# Local caches and machine-specific files
+__pycache__/
+*.py[cod]
+.cache/
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+node_modules/
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Rendering assets (team portraits and draft diagram previews) remain versioned.
