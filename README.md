@@ -55,6 +55,8 @@ Analyses customer movement and shopping behaviour to support intelligent staff a
 | T. A. Silva | IT22284952 | Virtual Try-On & Size Recommendation |
 | L. A. D. A. S. Perera | IT22243812 | Customer Behaviour Tracking & Staff Assistance |
 
+Academic supervision: Dinuka Wijendra, Assistant Professor (Research Supervisor), and Jenny Krishara, Senior Lecturer (Research Co-Supervisor), SLIIT.
+
 ## Research Website
 
 [Visit the Research Website](https://methsara20.github.io/smart-omni-retail-research/)
